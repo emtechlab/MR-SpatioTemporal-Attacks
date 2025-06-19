@@ -63,11 +63,14 @@ data/
 - tqdm
 
 Install via:
-
-```bash
 pip install -r requirements.txt
 
-Launch a speed manipulation attack: python attack_trajectory.py --mode speedup --length 10 --warmup 5
+
+
+Launch a speed manipulation attack: 
+
+python attack_trajectory.py --mode speedup --length 10 --warmup 5
+
 
 If you use this codebase or HoloSet, please cite our paper:
 
