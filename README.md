@@ -67,19 +67,29 @@ pip install -r requirements.txt
 
 
 
-## Launch a speed manipulation attack: 
+## Example: Launch a speed manipulation attack: 
 
 python attack_trajectory.py --mode speedup --length 10 --warmup 5
 
+
 ## 📜 Citation
 
-> If you use this codebase or HoloSet, please cite our paper:
-> 
+If you use this codebase or HoloSet, please cite our paper:
+
+```bibtex
 @inproceedings{chandio2024stealthy,
   title={Stealthy and Practical Multi-Modal Attacks on Mixed Reality Tracking},
   author={Chandio, Yasra and Bashir, Noman and Anwar, Fatima M.},
-  booktitle={Proceedings of the IEEE International Conference on Artificial Intelligence and Virtual Reality (AIxVR)},
+  booktitle={Proceedings of the IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR)},
   year={2024}
+}
+
+@inproceedings{chandio2022holoset,
+  title={Holoset-a dataset for visual-inertial pose estimation in extended reality: Dataset},
+  author={Chandio, Yasra and Bashir, Noman and Anwar, Fatima M},
+  booktitle={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
+  pages={1014--1019},
+  year={2022}
 }
 
 
