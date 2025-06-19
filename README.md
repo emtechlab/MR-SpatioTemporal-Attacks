@@ -23,7 +23,7 @@ The project includes utilities for launching, configuring, and analyzing:
 
 ---
 
-## 🧠 Code Organization
+## Code Organization
 
 | File | Description |
 |------|-------------|
@@ -62,17 +62,17 @@ data/
 - SciPy
 - tqdm
 
-Install via:
+## Install via:
 pip install -r requirements.txt
 
 
 
-Launch a speed manipulation attack: 
+## Launch a speed manipulation attack: 
 
 python attack_trajectory.py --mode speedup --length 10 --warmup 5
 
 
-If you use this codebase or HoloSet, please cite our paper:
+## If you use this codebase or HoloSet, please cite our paper:
 
 @inproceedings{chandio2024stealthy,
   title={Stealthy and Practical Multi-Modal Attacks on Mixed Reality Tracking},
