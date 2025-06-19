@@ -63,14 +63,15 @@ data/
 - tqdm
 
 ## Install via:
+```
 pip install -r requirements.txt
-
+```
 
 
 ## Example: Launch a speed manipulation attack: 
-
+```
 python attack_trajectory.py --mode speedup --length 10 --warmup 5
-
+```
 
 ## 📜 Citation
 
