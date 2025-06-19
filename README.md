@@ -71,18 +71,15 @@ pip install -r requirements.txt
 
 python attack_trajectory.py --mode speedup --length 10 --warmup 5
 
+## 📜 Citation
 
-## If you use this codebase or HoloSet, please cite our paper:
-
+> If you use this codebase or HoloSet, please cite our paper:
+> 
 @inproceedings{chandio2024stealthy,
   title={Stealthy and Practical Multi-Modal Attacks on Mixed Reality Tracking},
-  
   author={Chandio, Yasra and Bashir, Noman and Anwar, Fatima M.},
-  
   booktitle={Proceedings of the IEEE International Conference on Artificial Intelligence and Virtual Reality (AIxVR)},
-  
   year={2024}
-  
 }
 
 
